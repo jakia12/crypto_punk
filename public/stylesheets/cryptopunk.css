@@ -1,0 +1,521 @@
+.punk-title-underline {
+  border-bottom: 1px solid #bbb;
+}
+
+.punk-overlay-class {
+  background-color: #ffffff;
+  opacity: 0.8;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pixelated {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: pixelated;
+}
+
+.pinklink {
+  color: #ff04b4;
+}
+
+.btn {
+  border-radius: 0;
+  background: #ff04b4;
+  font-size: 15px;
+  line-height: 15px;
+  padding: 12px 15px;
+  width: 60%;
+  text-shadow: none;
+  box-shadow: none;
+  border: 0;
+  margin-top: 10px;
+  text-align: left;
+  transition: all 0.5s;
+}
+
+.btn.btn-no-icon:before {
+  content: none !important;
+}
+
+.btn-nominwidth {
+  width: auto;
+}
+
+.btn-search {
+  border-radius: 0;
+  background: #ff04b4;
+  font-size: 15px;
+  line-height: normal;
+  padding: 15px 15px 16px;
+  /* width: 60%; */
+  /* text-shadow: none; */
+  box-shadow: none;
+  border: 0;
+  /* margin-top: 10px; */
+  /* text-align: left; */
+  transition: all 0.5s;
+}
+
+small {
+  color: #272727 !important;
+}
+
+p.subhead {
+  line-height: 1em;
+}
+
+input.invalid {
+  border: 1px solid red;
+}
+
+p.invalid {
+  color: red;
+}
+
+.tight-line {
+  line-height: 1.3em;
+}
+
+.punk-stat {
+  line-height: 1.3em;
+  overflow-wrap: break-word;
+}
+
+.punk-stat-line {
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #000;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.row-equal-height {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.punk-image-container-dense {
+  margin-top: 10px;
+  min-height: 100px;
+  padding-right: 0px;
+  text-align: left;
+}
+
+.punk-image-container-dense-notext {
+  padding-right: 0px;
+  text-align: left;
+}
+
+.punk-image-text-dense {
+  margin-top: 5px;
+  padding-right: 0px;
+  line-height: 1em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+
+div.modal button.btn:before,
+#ethereum a#buttonWithdraw:before,
+.btn:before {
+  font-family: "FontAwesome";
+  padding-right: 6px;
+}
+
+.btn#buttonBuy:before {
+  content: "\f07a";
+}
+
+.btn#buttonTicket:before {
+  content: "\f145";
+}
+
+.btn#buttonTransfer:before, .btn#buttonUnwrap:before {
+  content: "\f1d8";
+}
+
+div.modal button.btn:first-child:before,
+.btn#buttonRemoveFromSale:before {
+  content: "\f05e";
+}
+
+.btn#buttonBid:before,
+.btn#buttonOffer:before {
+  content: "\f02b";
+}
+
+div.modal button.btn:last-child:before {
+  content: "\f00c";
+}
+
+.btn#buttonWithdrawBid:before {
+  content: "\f00d";
+}
+
+.btn.top-owners:before {
+  content: "\f0cb";
+}
+
+.btn.all-attributes:before {
+  content: "\f1b3";
+}
+
+.btn#buttonLogout:before {
+  content: "\f08b";
+}
+
+.btn#buttonChangePassword:before {
+  content: "\f084";
+}
+
+.btn#buttonWatchAccount:before {
+  content: "\f06e";
+}
+
+.btn#buttonUnwatchAccount:before {
+  content: "\f070";
+}
+
+.btn#buttonSign:before {
+  content: "\f040";
+}
+
+.btn#buttonDiscordLogin:before {
+  content: "\f007";
+}
+
+@media screen and (max-width: 992px) {
+  .btn {
+    width: 100%;
+  }
+}
+
+p#ethereumAccount a {
+  font-size: 20px;
+}
+
+.ethereumpanel-loggedin {
+  /*display: none;*/
+  position: fixed !important;
+  top: 160px !important;
+  right: 0 !important;
+  border-right: 0;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ethereumpanel-loggedin .panel.panel-default {
+  box-shadow: 15px 5px 30px 5px rgba(0, 0, 0, 0.05);
+  padding: 30px 40px 30px 0 !important;
+  background: #fcfcfc;
+}
+
+.ethereumpanel-hidden {
+  position: fixed !important;
+  top: 160px !important;
+  right: 0 !important;
+  border-right: 0;
+}
+
+.ethereumpanel-hidden .panel.panel-default {
+  padding: 30px 5px !important;
+  box-shadow: 15px 5px 30px 5px rgba(0, 0, 0, 0.05);
+  background: #fcfcfc;
+  cursor: pointer;
+  font-weight: 700;
+  color: #ff04b4;
+  text-decoration: none;
+}
+
+#collapse-button {
+  padding: 0px 25px 0px 30px;
+  background: #fcfcfc;
+  cursor: pointer;
+  font-weight: 700;
+  color: #ff04b4;
+  margin: auto;
+}
+
+#connectedPanel {
+  padding: 30px 5px;
+}
+
+.ethereumpanel-loggedout {
+  /*display: none;*/
+  position: absolute !important;
+  top: 160px !important;
+  right: 0 !important;
+  border-right: 0;
+}
+
+.ethereumpanel-loggedout .panel.panel-default {
+  max-width: 350px;
+  box-shadow: 15px 5px 30px 5px rgba(0, 0, 0, 0.05);
+  padding: 30px 40px !important;
+  background: #fcfcfc;
+}
+
+#ethereum a#buttonWithdraw {
+  transition: all 0.5s;
+  border-radius: 0;
+  margin-left: 0;
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 15px;
+  padding: 0 15px;
+}
+
+#ethereum a#buttonWithdraw:before {
+  content: "\f063";
+}
+
+.modal button.btn {
+  width: 49%;
+  margin: 0;
+  margin-right: 2%;
+  float: left;
+}
+
+.modal button.btn:last-child {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.modal button.close {
+  font-size: 40px;
+}
+
+.modal .modal-dialog .modal-content {
+  border-radius: 0;
+  display: block;
+  vertical-align: middle;
+  width: 100%;
+  margin: auto;
+  max-width: 600px;
+}
+
+.modal {
+  /*display: table;*/
+  height: 100%;
+  width: 100%;
+}
+
+.modal .modal-dialog {
+  /*display: table-cell;*/
+  height: 370px;
+  /*width: 600px;*/
+  vertical-align: middle;
+}
+
+.modal h4.modal-title {
+  line-height: 40px;
+}
+
+.modal .modal-header {
+  background: #f3f3f3;
+  padding: 15px 30px;
+}
+
+.modal .modal-body,
+.modal-footer {
+  padding: 0 30px 30px;
+  border: 0;
+}
+
+.modal .modal-body {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .btn {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .modal button.btn {
+    width: 100%;
+  }
+
+  .modal button.btn {
+    margin-top: 10px;
+  }
+
+  .punk-stat {
+    line-height: 1.3em;
+    margin-top: 20px;
+  }
+
+  .punk-stat-line {
+    margin-top: 0px;
+  }
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.punk-history-row-bid {
+  background: #b8a7ce;
+}
+
+.punk-history-row-sold {
+  background: #adc9d6;
+}
+
+.punk-history-row-offer {
+  background: #d6adad;
+}
+
+.punk-history-row-transfer {
+  background: #add6b8;
+}
+
+.punk-history-row-wrap {
+  background: #9bbfa5;
+}
+
+.punk-history-row-claim {
+  background: #add6b8;
+}
+
+table.table tr.attribute-row td {
+  vertical-align: middle;
+}
+
+.punk-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.punk-image-overlay-bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.punk-image-overlay-top-left {
+  position: absolute;
+  top: 0px;
+  left: 4px;
+}
+
+.punk-image-overlay-text {
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+  line-height: 1em;
+}
+
+.container-punk-event-large {
+  margin-top: 10px;
+  min-height: 260px;
+  line-height: 1.3em;
+}
+
+.modal-background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1;
+}
+
+.web3-menu-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-width: 38vw;
+  border-radius: 12px;
+}
+
+.web3-menu-content ul {
+  list-style-type: none; 
+  width: 100%;
+  padding: 0px 15px;
+}
+
+.web3-menu-content li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 12px;
+}
+
+.web3-menu-content li:hover {
+  background-color: #f7f7f7;
+}
+
+.web3-menu-content img {
+  cursor: pointer;
+}
+
+.web3-menu-content hr {
+  margin: 11px 0px;
+}
+
+.web3-menu-label {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(12,12,13)
+}
+
+.web3-menu-font {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  color: rgb(169,168,168)
+}
+
+.web3-menu-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-width: 38vw;
+  border-radius: 12px;
+}
+
+.chain-error-content {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-width: 38vw;
+  border-radius: 12px;
+}
